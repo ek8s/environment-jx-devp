@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: devp
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: devp
+  pipelines: {}
